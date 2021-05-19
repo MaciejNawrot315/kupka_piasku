@@ -1,0 +1,40 @@
+﻿  Game.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(230,33): warning C4244: "argument": konwersja z "_Ty" do "float", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(1427): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Construct_in_place<_Ty,ResourceManager*&,int,int>(_Ty &,ResourceManager *&,int &&,int &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Ty=Shovel
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2071): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<ResourceManager*&,int,int>(ResourceManager *&,int &&,int &&)” funkcji szablon
+          with
+          [
+              _Ty=Shovel
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2072): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<ResourceManager*&,int,int>(ResourceManager *&,int &&,int &&)” funkcji szablon
+          with
+          [
+              _Ty=Shovel
+          ]
+C:\Users\Maciej Nawrot\source\repos\PlatformPK4\PlatformPK4\source\Game.cpp(39): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::shared_ptr<Shovel> std::make_shared<Shovel,ResourceManager*&,int,int>(ResourceManager *&,int &&,int &&)” funkcji szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(230,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(1427): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Construct_in_place<_Ty,ResourceManager*&,const std::string&,int&,int&,int&,int&>(_Ty &,ResourceManager *&,const std::string &,int &,int &,int &,int &) noexcept(false)” funkcji szablon
+          with
+          [
+              _Ty=Wall
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2071): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<ResourceManager*&,const std::string&,int&,int&,int&,int&>(ResourceManager *&,const std::string &,int &,int &,int &,int &)” funkcji szablon
+          with
+          [
+              _Ty=Wall
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2072): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<ResourceManager*&,const std::string&,int&,int&,int&,int&>(ResourceManager *&,const std::string &,int &,int &,int &,int &)” funkcji szablon
+          with
+          [
+              _Ty=Wall
+          ]
+C:\Users\Maciej Nawrot\source\repos\PlatformPK4\PlatformPK4\source\Game.cpp(352): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::shared_ptr<Wall> std::make_shared<Wall,ResourceManager*&,const std::string&,int&,int&,int&,int&>(ResourceManager *&,const std::string &,int &,int &,int &,int &)” funkcji szablon
+  PlatformPK4.vcxproj -> C:\Users\Maciej Nawrot\source\repos\PlatformPK4\PlatformPK4\..\build\Debug-windows-x86_64\PlatformPK4.exe
